@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-padding-top: 60px;
+    scroll-behavior: smooth;
+}
+.home{
+    height: 800px;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    color: white;
+
+
+}
+
+.nav-bar {
+   
+    width: 92%;
+    margin: auto;
+  
+
+}
+.nav-bar .nav-img{
+    
+    width: 20%;
+    float: left;
+    margin: 10px;
+
+    
+}
+.nav-bar .nav-img img{
+    width: 100%;
+}
+.nav-bar .links
+{
+   
+    width: 50%;
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.nav-bar .links li{
+    float: left;
+    margin: 26px 15px;
+    padding: 10px;
+    list-style: none;
+    
+   
+}
+.nav-bar .links li:hover{
+    border-bottom: 2px solid #8e7754;
+}
+.nav-bar .links li a{
+    text-decoration: none;
+    color: white;
+}
+.home-cont {
+    width: 90%;
+    height: 300px;
+    
+    margin:60px auto;
+    text-align: center;
+    
+   
+}
+.home-cont p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 28px;
+}
+.home-cont h1{
+  
+    font-size: 60px;
+}
+.home-cont .btn{
+    padding:15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.home-cont .btn:hover{
+    transform: scale(1.06);
+}
+.home-cont .btn-one{
+    background-color: #8e7754;
+    border: 2px solid #8e7754;
+
+}
+.home-cont .btn-two{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.about{
+    width: 90%;
+    margin: 80px auto;
+    font-size: 20px;
+    
+}
+.about .about-img{
+    width: 49%;
+    display: inline-block;
+
+}
+.about .about-img img{
+    width: 100%;
+}
+.about .about-cont{
+    width: 48%;
+    margin-top: 30px;
+    display: inline-block;
+  
+    vertical-align: top;
+    color: #686868;
+  
+
+}
+.about-cont h2{
+    margin:30px 50px;
+    color: black;
+}
+.about-cont p.p{
+    
+    font-size: 20px;
+    margin:30px 50px;
+}
+
+.about-cont li{
+    width: 300px;
+    list-style: none;
+}
+.about-cont li img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 10px;
+}
+.about-cont li span{
+    display: inline-block;
+    vertical-align: 25px;
+
+}
+.our-offer{
+   
+    background-color: #f8f8f8;
+   /* height: 600px; */
+}
+.our-offer .offer-cont{
+    width: 48%;
+    float: left;
+    vertical-align: 50px;
+    margin-top: 30px;
+  
+
+}
+ .our-offer .offer-cont p{
+   margin: 20px;
+   font-size: 20px;
+   line-height: 1.86em;
+   font-weight: 400;
+    color: #686868;
+}
+.our-offer .offer-cont h2{
+    color: #303030;
+    color: #303030;
+    line-height: 1.38em;
+    font-size: 32px;
+    margin: 30px 20px;
+
+
+
+}
+ 
+
+.our-offer .offer-img{
+    width: 48%;
+float: left;
+}
+.our-offer .offer-img img{
+    width: 100%;
+}
+
+.gallary{
+    text-align: center;
+    padding: 50px;
+}
+.gallary h2{
+    margin: 10px;
+    padding: 10px;
+    color: #303030;
+}
+.gallary .gall-p{
+    margin: 5px;
+    padding: 5px;
+    color: #686868;
+
+
+}
+    
+
+.gall-image{
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 15px;
+}
+
+.gall-image img{
+    width: 100%;
+}
+.gall-image h3 ,.gall-image p{
+    margin: 7px 0px;
+    padding: 5px;
+    line-height: 1.86em;
+   font-weight: 400;
+   color: #686868;
+}
+.gall-image h3{
+    color: #303030;
+}
+
+.blog{
+    color: #686868;
+    background-color: #f8f8f8;
+padding-top: 50px;}
+.blog-cont{
+    width: 48%;
+    height: 600px;
+    float: left;
+
+}
+.blog-cont h2 , .blog-cont p.one{
+    margin: 15px 40px;
+   
+}
+.blog-cont h2{
+    color: #303030;
+    line-height: 1.38em;
+    font-size: 32px;
+}
+.blog-cont p.one{
+    line-height: 1.86em;
+    font-size: 17px;
+    color: #686868;
+}
+.blog .blog-cont ul{
+  list-style: none;
+    width: 350px;
+}
+
+.blog .blog-cont li img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 15px 0;
+    float: left;
+    background-color: #8e7754;
+
+}
+.blog .blog-cont li  p{
+    float: left;
+    margin: 27px 0 25px 10px;
+}
+.blog-map{
+    width: 48%;
+    float: right;
+    margin: 20px 15px;
+}
+.footer{
+    background-color: #1b1b1b
+    ;
+    padding: 60px;
+}
+.footer .fo {
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+.f-about h3.h3
+{
+padding-left: 40px;
+margin: 0px;
+color: white;
+}
+ .f-about .one{
+    color: #969696;
+    font-size: 16px;
+    opacity: 1;
+    visibility: visible;
+    line-height: 1.86em;
+    margin: 20px 20px;
+
+;
+ }
+.footer .fo  img{
+    width: 40px;
+    float: left;
+}
+.footer .fo h3{
+    padding:5px 20px;
+    color: white;
+
+}
+.footer .fo  p{
+    margin-top: 9px;
+    float: left;
+}
+.footer .fo  ul{
+    padding: 5px;
+    color: #969696;
+    display: inline-block;
+
+}
+.footer .fo  ul li{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #969696;
+}
+.fo  .x{
+    width: 200px;
+}
+.end-footer{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background: #151515;
+}
+.end-footer p{
+    margin: 10px 10px 20px;
+}
+.end-footer .icon {
+    padding: 50px;
+}
+.end-footer .icon a{
+    display: inline-block;
+}
+.end-footer .icon img{
+    width: 40px;
+    text-align: center;
+    
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 5px;
+
+}
+.end-footer .icon img:hover{
+    background-color: #8e7754;
+}
